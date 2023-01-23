@@ -21,3 +21,36 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#This the the canonical lab .gitignore file
+
+#ignore temp files
+*~
+
+#ignore pdf files (just keep source files)
+*.pdf
+
+#ignore junk files from latex output
+*.out
+*.aux
+*.dvi
+*.ps
+
+#ignore junk files from compiling C code
+*.o
+
+#ignore junk files from compiling Haskell code
+*.hi
+
+#ignore other junk files
+*.backup
+*.kate-swp
+*.swp
+
+#eclipsey stuff
+.classpath
+.project
+
+# artifact directory
+bin
+
